@@ -1,0 +1,5 @@
+package com.ead.authuser.service.impl;
+
+public class UserServiceImpl {
+
+}

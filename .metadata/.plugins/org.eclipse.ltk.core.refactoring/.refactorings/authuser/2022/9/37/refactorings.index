@@ -1,0 +1,6 @@
+1662433672160	Rename resource 'application.properties'
+1662482121100	Extract constant 'ERROR_USERNAME_ALREADY_EXIST'
+1662482127444	Extract constant 'ERROR_E_MAIL_ALREADY_EXIST'
+1662482135570	Extract constant 'UTC'
+1662483126560	Extract constant 'USER_NOT_FOUND'
+1662483199247	Rename method 'existsByUsername'
