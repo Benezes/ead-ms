@@ -6,6 +6,7 @@ import java.time.ZoneId;
 import org.springframework.beans.BeanUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -35,7 +36,7 @@ public class AuthenticationController {
 
 	@PostMapping("/signup")
 	public ResponseEntity<Object> registerUser(
-			@RequestBody @JsonView(UserDto.UserView.RegistrationPost.class) UserDto userDto) {
+			@RequestBody @Validated(UserDto.UserView.RegistrationPost.class) @JsonView(UserDto.UserView.RegistrationPost.class) UserDto userDto) {
 
 		if (userService.existsByUserName(userDto.getUserName()))
 			return ResponseEntity.status(HttpStatus.CONFLICT).body(ERROR_USERNAME_ALREADY_EXIST);

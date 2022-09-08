@@ -1,0 +1,5 @@
+package com.ead.authuser.validation.impl;
+
+public class UsernameConstraintImpl {
+
+}

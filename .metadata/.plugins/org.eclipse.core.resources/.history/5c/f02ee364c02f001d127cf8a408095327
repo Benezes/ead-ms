@@ -1,0 +1,11 @@
+package com.ead.authuser.specifications;
+
+import org.springframework.data.jpa.domain.Specification;
+
+import com.ead.authuser.models.UserModel;
+
+public class SpecificationTemplate {
+
+	public interface UserSpec extends Specification<UserModel> {
+	};
+}
