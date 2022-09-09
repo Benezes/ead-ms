@@ -21,3 +21,11 @@ z
 Jsrc/main/java/com/ead/authuser/validation/impl/UsernameConstraintImpl.java,a\6\a6b839fc846c0c1fdbcdfad4bf3c8298f4f0a1af
 m
 =src/main/java/com/ead/authuser/controller/UserController.java,b\2\b26ab713c841399aa81b6b3b5eeb626ef6034ddd
+p
+@src/main/java/com/ead/authuser/configuration/ResolverConfig.java,9\e\9e690bb103d840145bf16f7c117303921852f88a
+x
+Hsrc/main/java/com/ead/authuser/specifications/SpecificationTemplate.java,5\c\5c7a64cc1aa3e3b11a5d851ddd154bf48f812865
+m
+=src/main/java/com/ead/authuser/repository/UserRepository.java,1\2\12f44cc6bc89df78be65ba95ad671b4398354990
+d
+4src/main/java/com/ead/authuser/models/UserModel.java,9\a\9a88fb3558e436664bd01145b811564ddf26664f

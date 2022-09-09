@@ -11,4 +11,13 @@
     <fullyQualifiedTypeName name="org.springframework.data.domain.Sort.Direction"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.Sort"/>
+    <fullyQualifiedTypeName name="net.kaczmarzyk.spring.data.jpa.web.SpecificationArgumentResolver"/>
+    <fullyQualifiedTypeName name="org.springframework.data.web.PageableHandlerMethodArgumentResolver"/>
+    <fullyQualifiedTypeName name="net.kaczmarzyk.spring.data.jpa.web.annotation.Spec"/>
+    <fullyQualifiedTypeName name="net.kaczmarzyk.spring.data.jpa.domain.Equal"/>
+    <fullyQualifiedTypeName name="com.ead.authuser.specifications.SpecificationTemplate"/>
+    <fullyQualifiedTypeName name="com.ead.authuser.specifications.SpecificationTemplate.UserSpec"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaSpecificationExecutor"/>
+    <fullyQualifiedTypeName name="org.springframework.hateoas.RepresentationModel"/>
+    <fullyQualifiedTypeName name="org.springframework.hateoas.server.mvc.WebMvcLinkBuilder"/>
 </qualifiedTypeNameHistroy>
